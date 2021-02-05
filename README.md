@@ -1,30 +1,14 @@
 # Physics_Sim_Py
 
-"Physics_Sim_Py" is a tutorial of physics simulations with Python.
-
-# DEMO
-
-You can learn how to making cute physics simulations (looks retro game).
-
-![](https://cpp-learning.com/wp-content/uploads/2019/05/pyxel-190505-161951.gif)
-
-This animation is a "Cat playing on trampoline"!
-You can get basic skills for making physics simulations.
-
-# Features
-
-Physics_Sim_Py used [pyxel](https://github.com/kitao/pyxel) only.
-
-```python
-import pyxel
-```
-[Pyxel](https://github.com/kitao/pyxel) is a retro game engine for Python.
-You can feel free to enjoy making pixel art style physics simulations.
+"phyloanalysis_from_fasta_to_image" is literally program generating color images reflecting the density of freq with phyloanalitic order.
 
 # Requirement
 
-* Python 3.6.5
-* pyxel 1.0.2
+* Python: 3.x 
+* pandas
+* numpy
+* matplotlib
+* biopython
 
 Environments under [Anaconda for Windows](https://www.anaconda.com/distribution/) is tested.
 
@@ -35,37 +19,31 @@ activate pyxel
 
 # Installation
 
-Install Pyxel with pip command.
+Install necessary modules with pip command.
 
 ```bash
-pip install pyxel
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install biopython
+```
+
+install this program with git clone. Under the your desired directory,${YOUR_DIR}.
+```bash
+cd ${YOUR_DIR}
+git clone https://github.com/LazyDragon1123/phyloanalysis_from_fasta_to_image.git
 ```
 
 # Usage
 
-Please create python code named "demo.py".
-And copy &amp; paste [Day4 tutorial code](https://cpp-learning.com/pyxel_physical_sim4/).
-
-Run "demo.py"
-
-```bash
-python demo.py
-```
-
-# Note
-
-I don't test environments under Linux and Mac.
+Please open the program.ipynb with jupyter and run each cells from the top. You also need to have your own fasta file in the same directory.
 
 # Author
 
-* Hayabusa
-* R&D Center
-* Twitter : https://twitter.com/Cpp_Learning
+* Yuki Tatsumi
 
 # License
 
-"Physics_Sim_Py" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-Enjoy making cute physics simulations!
+Enjoy making your own images!
 
 Thank you!
