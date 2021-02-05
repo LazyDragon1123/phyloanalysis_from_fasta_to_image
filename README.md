@@ -1,4 +1,4 @@
-# Physics_Sim_Py
+# Phyloanalitic heatmap
 
 "phyloanalysis_from_fasta_to_image" is literally program generating color images reflecting the density of freq with phyloanalitic order.
 
